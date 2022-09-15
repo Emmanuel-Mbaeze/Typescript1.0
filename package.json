@@ -1,0 +1,15 @@
+{
+  "name": "TypeScript",
+  "version": "1.0.0",
+  "description": "",
+  "main": "./output/index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "nodemon ./output/index.js",
+    "dev": "ts-node-dev --respawn --transpile-only ./src/index.ts",
+    "devs": "nodemon --exec npx ts-node ./src/index.ts"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC"
+}
